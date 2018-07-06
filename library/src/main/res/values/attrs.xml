@@ -2,7 +2,7 @@
 <resources>
 
   <declare-styleable name="MaskEditText">
-    <attr format="string" name="met_mask"/>
+    <attr format="string" name="mask"/>
   </declare-styleable>
 
 </resources>

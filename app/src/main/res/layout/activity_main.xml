@@ -16,9 +16,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_credit_cart_number"
-        android:importantForAccessibility="no"
         android:inputType="number"
-        app:met_mask="#### #### #### ####"/>
+        app:mask="#### #### #### ####"/>
 
   </android.support.design.widget.TextInputLayout>
 
@@ -32,7 +31,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/hint_phone_number"
         android:inputType="phone"
-        app:met_mask="+90(###) ### ## ##"/>
+        app:mask="+7 (###) ###-##-##"/>
 
   </android.support.design.widget.TextInputLayout>
 
@@ -46,7 +45,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/hint_date"
         android:inputType="date"
-        app:met_mask="##.##.####"/>
+        app:mask="##.##.####"/>
 
   </android.support.design.widget.TextInputLayout>
 
